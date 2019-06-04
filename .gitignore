@@ -70,7 +70,6 @@ lib64/
 parts/
 sdist/
 var/
-wheels/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -153,6 +152,7 @@ env/
 venv/
 ENV/
 env.bak/
+env/
 venv.bak/
 
 # Spyder project settings
@@ -175,4 +175,4 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/linux,macos,python,ansible
 
-wheels
+.vagrant/
